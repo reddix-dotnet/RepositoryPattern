@@ -61,15 +61,25 @@ Here is an overview of the project structure:
 
 src/
 ├── Controllers/         # API Controllers
+
 ├── Data/                # Database context and seed data
+
 ├── Models/              # Domain models
+
 ├── Repositories/        # Interfaces and repository implementations
+
 │   ├── IRepository.cs   # Generic repository interface
+
 │   ├── Repository.cs    # Generic repository implementation
+
 │   ├── IUnitOfWork.cs   # Unit of Work interface
+
 │   └── UnitOfWork.cs    # Unit of Work implementation
+
 ├── Services/            # Business logic layer
+
 ├── Startup.cs           # Application setup and middleware
+
 └── Program.cs           # Main entry point
 
 
