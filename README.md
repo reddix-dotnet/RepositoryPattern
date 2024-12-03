@@ -40,5 +40,5 @@ To get started with this repository, clone it to your local machine and follow t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/RepositoryPatternNetCore8.git
-   cd RepositoryPatternNetCore8
+   git clone https://github.com/reddix-dotnet/RepositoryPattern.git
+   cd RepositoryPattern
