@@ -42,3 +42,16 @@ To get started with this repository, clone it to your local machine and follow t
    ```bash
    git clone https://github.com/reddix-dotnet/RepositoryPattern.git
    cd RepositoryPattern
+
+2. Restore dependencies:
+  ```bash
+   dotnet restore
+  ```
+3. Apply database migrations:
+   ```bash
+   dotnet ef database update
+   ```
+4. Run the application:
+   ```bash
+   dotnet run
+   ```
